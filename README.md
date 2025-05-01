@@ -1,5 +1,6 @@
 # Analysis & Evaluation of Geographic Bias in Text-to-image generation
 
+
 ## Abstract 
 
 Analysis & Evaluation of Geographic Bias in Text-to-image generation
@@ -35,16 +36,19 @@ very large, general geographic areas
 
 ## File Overview
 
-calcmetrics.py - For each of the files, calculate metrics
-checkdallegenerated.py - Verify whether or not DALLE generation worked
-excel_processor.ipynb - convert excel sheet of human metrics into one CSV
-eval_auto_metrics.py - measure automatic metrics
-generate_first_paper_prompts.py - generate prompts from DIG In paper
-generate_second_paper_prompts.py - generate prompts from second paper
-humanprocess.py - process human metrics
-metricgui.py - create streamlit app to visualize metrics
-metrictester.py - test file for metric implementation
-runpaperone.py - generate images for paper 1
-runpapertwo.py - generate images for paper 2
-table_maker.ipynb - scratch file to generate visualizations
-updated_eval_metrics.py - alternate metric evaluator
+| Filename                         | Description                                             |
+|----------------------------------|---------------------------------------------------------|
+| `calcmetrics.py`                 | Calculate metrics for each of the files                |
+| `checkdallegenerated.py`        | Verify whether or not DALLE generation worked          |
+| `excel_processor.ipynb`         | Convert Excel sheet of human metrics into one CSV      |
+| `eval_auto_metrics.py`          | Measure automatic metrics                              |
+| `generate_first_paper_prompts.py` | Generate prompts from DIG In paper                   |
+| `generate_second_paper_prompts.py` | Generate prompts from second paper                  |
+| `humanprocess.py`               | Process human metrics                                  |
+| `metricgui.py`                  | Create Streamlit app to visualize metrics              |
+| `metrictester.py`               | Test file for metric implementation                    |
+| `runpaperone.py`                | Generate images for paper 1                            |
+| `runpapertwo.py`                | Generate images for paper 2                            |
+| `table_maker.ipynb`             | Scratch file to generate visualizations                |
+| `updated_eval_metrics.py`       | Alternate metric evaluator                             |
+
